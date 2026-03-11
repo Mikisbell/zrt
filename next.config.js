@@ -7,8 +7,8 @@ const nextConfig = {
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
     minimumCacheTTL: 60,
   },
-  // Enable static export for optimal performance
-  output: 'export',
+  // Remove output: 'export' for Vercel deployment
+  // Vercel handles static optimization automatically
   // Ignore ESLint errors during build (for development)
   eslint: {
     ignoreDuringBuilds: true,
