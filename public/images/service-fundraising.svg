@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <rect width="800" height="600" fill="#fef3c7"/>
+  <circle cx="400" cy="200" r="80" fill="#d97706"/>
+  <path d="M350 200 Q400 150 450 200 Q400 280 350 200" fill="#fbbf24"/>
+  <path d="M400 160 L400 240" stroke="#f59e0b" stroke-width="8"/>
+  <text x="400" y="400" text-anchor="middle" font-family="Arial" font-size="36" fill="#92400e" font-weight="bold">Recaudación</text>
+  <text x="400" y="450" text-anchor="middle" font-family="Arial" font-size="20" fill="#b45309">Fondos para proyectos</text>
+</svg>

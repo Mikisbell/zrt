@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <linearGradient id="heroGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#065f46;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#059669;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#10b981;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="sunGlow" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" style="stop-color:#fef3c7;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#fbbf24;stop-opacity:0" />
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#heroGradient)"/>
+  <!-- Sun glow effect -->
+  <ellipse cx="960" cy="300" rx="600" ry="400" fill="url(#sunGlow)"/>
+  <!-- Mountains silhouette -->
+  <path d="M0 800 L300 500 L600 700 L900 450 L1200 650 L1500 400 L1920 600 L1920 1080 L0 1080 Z" fill="#064e3b" opacity="0.5"/>
+  <path d="M0 900 L400 650 L800 850 L1200 600 L1600 800 L1920 700 L1920 1080 L0 1080 Z" fill="#047857" opacity="0.4"/>
+  <!-- Trees silhouette -->
+  <g fill="#022c22" opacity="0.3">
+    <path d="M100 1080 L130 900 L160 1080 Z"/>
+    <path d="M200 1080 L240 850 L280 1080 Z"/>
+    <path d="M350 1080 L400 800 L450 1080 Z"/>
+    <path d="M1500 1080 L1550 850 L1600 1080 Z"/>
+    <path d="M1700 1080 L1760 900 L1820 1080 Z"/>
+  </g>
+  <!-- Text overlay -->
+  <text x="960" y="540" text-anchor="middle" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="white" opacity="0.9">Imagen de Reforestación</text>
+  <text x="960" y="620" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" fill="white" opacity="0.7">Sustituir con foto de bosque peruano</text>
+</svg>

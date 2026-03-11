@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <rect width="800" height="600" fill="#dbeafe"/>
+  <circle cx="400" cy="200" r="80" fill="#2563eb"/>
+  <rect x="340" y="160" width="120" height="90" fill="#93c5fd" rx="5"/>
+  <line x1="360" y1="190" x2="440" y2="190" stroke="#1e40af" stroke-width="3"/>
+  <line x1="360" y1="210" x2="440" y2="210" stroke="#1e40af" stroke-width="3"/>
+  <line x1="360" y1="230" x2="420" y2="230" stroke="#1e40af" stroke-width="3"/>
+  <text x="400" y="400" text-anchor="middle" font-family="Arial" font-size="36" fill="#1e3a8a" font-weight="bold">Educación</text>
+  <text x="400" y="450" text-anchor="middle" font-family="Arial" font-size="20" fill="#1d4ed8">Concientización ambiental</text>
+</svg>
