@@ -12,7 +12,7 @@ import { Service } from '@/types';
 export const heroContent: Omit<HeroSectionProps, 'className'> = {
   headline: 'Juntos por un Futuro Verde',
   subheadline: 'Reforestamos, conservamos y educamos para proteger nuestro planeta',
-  backgroundImage: '/images/hero-bg.jpg',
+  backgroundImage: '/images/hero-background.svg',
   ctaButtons: [
     {
       label: 'Donar Ahora',

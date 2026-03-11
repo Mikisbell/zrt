@@ -25,7 +25,7 @@ export interface HeroSectionProps {
 export const HeroSection: React.FC<HeroSectionProps> = ({
   headline,
   subheadline,
-  backgroundImage = '/images/hero-bg.jpg',
+  backgroundImage = '/images/hero-background.svg',
   ctaButtons,
   organizationName = 'Organización No Gubernamental ZRT (ONG ZRT)',
   organizationId = '20610820256',

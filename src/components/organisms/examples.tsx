@@ -41,7 +41,7 @@ export const HeroSectionExample = () => (
   <HeroSection
     headline="Salvemos Nuestro Planeta"
     subheadline="Juntos por un futuro más verde"
-    backgroundImage="/images/hero-bg.jpg"
+    backgroundImage="/images/hero-background.svg"
     ctaButtons={[
       { label: 'Donar Ahora', href: '#donate', variant: 'primary' },
       { label: 'Conocer Más', href: '#about', variant: 'secondary' },
@@ -276,7 +276,7 @@ export const CompleteLandingPageExample = () => {
       <HeroSection
         headline="Salvemos Nuestro Planeta"
         subheadline="Juntos por un futuro más verde"
-        backgroundImage="/images/hero-bg.jpg"
+        backgroundImage="/images/hero-background.svg"
         ctaButtons={[
           { label: 'Donar Ahora', href: '#donate', variant: 'primary' },
           { label: 'Conocer Más', href: '#about', variant: 'secondary' },
